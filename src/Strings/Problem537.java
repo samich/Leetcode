@@ -57,7 +57,7 @@ public class Problem537 {
         int calculate = (intA * intC) + (intB * intD)*(-1);
         int iPart = (intA * intD) + (intB * intC);
 
-        return "" + calculate + "+" +iPart + "i";
+        return calculate + "+" +iPart + "i";
 
     }
 
