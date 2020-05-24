@@ -3,7 +3,24 @@ package Strings;
 public class Problem1446 {
     public static void main(String[] args) {
 
+        //example 1
         String s = "leetcode";
+        System.out.println(maxPower(s));
+
+        //example 2
+        s = "abbcccddddeeeeedcba";
+        System.out.println(maxPower(s));
+
+        //example 3
+        s = "triplepillooooow";
+        System.out.println(maxPower(s));
+
+        //example 4
+        s = "hooraaaaaaaaaaay";
+        System.out.println(maxPower(s));
+
+        //example 5
+        s = "tourist";
         System.out.println(maxPower(s));
 
     }
