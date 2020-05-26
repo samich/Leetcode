@@ -18,6 +18,7 @@ public class Problem1431 {
 
         int max = candies[0];
 
+        //get the max num
         for ( int i = 1; i < candies.length; i++ ) {
 
             if ( candies[i] > max ) {
@@ -27,8 +28,9 @@ public class Problem1431 {
 
         for (int candy : candies) {
 
-
+            //if current index num + extra candies >= max add true, else false
             list.add(candy + extraCandies >= max);
+
         }
 
         return list;
