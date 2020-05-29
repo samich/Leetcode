@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * 1304. Find N Unique Integers Sum up to Zero
+ *
+ * Given an integer n, return any array containing n unique integers such that they add up to 0.
+ *
+ * */
+
 public class Problem1304 {
 
     public static void main(String[] args) {
