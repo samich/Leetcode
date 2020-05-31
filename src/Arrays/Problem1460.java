@@ -21,6 +21,16 @@ public class Problem1460 {
         int[] arr2  = {12, 1};
         System.out.println( canBeEqual(target2, arr2) );
 
+        //example 4:
+        int[] target3  = {3, 7, 9};
+        int[] arr3  = {3, 7, 11};
+        System.out.println( canBeEqual(target3, arr3) );
+
+        //example 5:
+        int[] target4  = {1, 1, 1, 1, 1};
+        int[] arr4  = {1, 1, 1, 1, 1};
+        System.out.println( canBeEqual(target4, arr4) );
+
     }
 
     public static boolean canBeEqual(int[] target, int[] arr) {
