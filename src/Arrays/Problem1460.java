@@ -2,6 +2,17 @@ package Arrays;
 
 import java.util.Arrays;
 
+/**
+ * 1460. Make Two Arrays Equal by Reversing Sub-arrays
+ *
+ * Given two integer arrays of equal length target and arr.
+ * In one step, you can select any non-empty sub-array of arr and reverse it.
+ * You are allowed to make any number of steps.
+ *
+ * Return True if you can make arr equal to target, or False otherwise.
+ *
+ * */
+
 public class Problem1460 {
 
     public static void main(String[] args) {
