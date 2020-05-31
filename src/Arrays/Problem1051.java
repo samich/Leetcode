@@ -22,6 +22,7 @@ public class Problem1051 {
 
     public static int heightChecker(int[] heights) {
 
+        //declare an array to copy the original array
         int[] unsortedArr = new int[heights.length];
 
         //copy array
