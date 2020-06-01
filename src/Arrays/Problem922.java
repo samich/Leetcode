@@ -42,7 +42,7 @@ public class Problem922 {
 
             } else {
 
-                //if
+                //if the integer at even index is even, then simply increase it
                 even += 2;
 
             }
