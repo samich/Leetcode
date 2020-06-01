@@ -4,9 +4,22 @@ public class Problem1385 {
 
     public static void main(String[] args) {
 
-        int[] arr1 = {1, 4, 2, 3};
-        int[] arr2 = {-4, -3, 6, 10, 20, 30};
-        int d = 3;
+        //example 1:
+        int[] arr1 = {4, 5, 8};
+        int[] arr2 = {10, 9, 1, 8};
+        int d = 2;
+        System.out.println( findTheDistanceValue( arr1, arr2, d) );
+
+        //example 2:
+        arr1 = new int[] {1, 4, 2, 3};
+        arr2 = new int[] {-4, -3, 6, 10, 20, 30};
+        d = 3;
+        System.out.println( findTheDistanceValue( arr1, arr2, d) );
+
+        //example 3:
+        arr1 = new int[] {2, 1, 100, 3};
+        arr2 = new int[] {-5, -2, 10, -3, 7};
+        d = 6;
         System.out.println( findTheDistanceValue( arr1, arr2, d) );
 
     }
