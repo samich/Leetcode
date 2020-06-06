@@ -1,5 +1,22 @@
 package Stack;
 
+/**
+ * 84. Largest Rectangle in Histogram
+ *
+ * Given n non-negative integers representing the histogram's bar height where the width of each
+ * bar is 1, find the area of largest rectangle in the histogram.
+ *
+ *
+ * Here's the idea:
+ * 1. find nearest smallest to left
+ * 2. find nearest smallest to right
+ * 3. find difference
+ * 4. store differences in an array of widths
+ * 5. store calculate area for each in an array
+ * 6. return largest area
+ *
+ * */
+
 public class Problem84 {
 
     public static void main(String[] args) {
@@ -8,6 +25,8 @@ public class Problem84 {
         System.out.println(largestRectangleArea(heights));
 
     }
+
+
 
     public static int largestRectangleArea(int[] heights) {
 
