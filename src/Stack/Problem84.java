@@ -26,8 +26,6 @@ public class Problem84 {
 
     }
 
-
-
     public static int largestRectangleArea(int[] heights) {
 
         int area = 0;
