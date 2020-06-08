@@ -6,8 +6,13 @@ public class Problem42 {
 
     public static void main(String[] args) {
 
+        //example 1:
         int[] height = {3, 0, 0, 2, 0, 4};
         System.out.println( trappingWater(height) );
+
+        //example 2:
+        int[] height1 = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+        System.out.println( trappingWater(height1) );
 
     }
 
@@ -24,6 +29,7 @@ public class Problem42 {
 
         Stack<Integer> stack = new Stack<>();
 
+        //find largest to the left for each building
         int max = height[0];
 
         for ( int i = 0; i < height.length; i++ ) {
@@ -67,6 +73,9 @@ public class Problem42 {
 
         stack.clear();
 
+
+
+        //find largest to the right for each building
         max = height[ height.length - 1 ];
 
         for ( int i = height.length - 1 ; i >= 0; i-- ) {
