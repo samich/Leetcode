@@ -6,7 +6,9 @@ public class Problem49 {
 
     public static void main(String[] args) {
 
-
+        //example 1:
+        String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
+        System.out.println(groupAnagrams(strs).toString());
 
     }
 
