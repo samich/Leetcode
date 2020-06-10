@@ -2,6 +2,13 @@ package HashTable;
 
 import java.util.*;
 
+/**
+ * 49. Group Anagrams
+ *
+ * Given an array of strings, group anagrams together.
+ *
+ * */
+
 public class Problem49 {
 
     public static void main(String[] args) {
